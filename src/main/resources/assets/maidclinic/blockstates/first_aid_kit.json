@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "maidclinic:block/first_aid_kit"
+    }
+  }
+}

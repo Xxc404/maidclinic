@@ -1,0 +1,30 @@
+{
+  "parent": "maidclinic:root",
+  "display": {
+    "icon": {
+      "id": "maidclinic:medical_mask"
+    },
+    "title": {
+      "translate": "advancement.maidclinic.prevention.title"
+    },
+    "description": {
+      "translate": "advancement.maidclinic.prevention.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "prevention": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "maidclinic:medical_mask"
+          }
+        ]
+      }
+    }
+  }
+}

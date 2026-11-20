@@ -1,0 +1,26 @@
+{
+  "parent": "maidclinic:root",
+  "display": {
+    "icon": {
+      "id": "maidclinic:first_aid_kit"
+    },
+    "title": {
+      "translate": "advancement.maidclinic.kit.title"
+    },
+    "description": {
+      "translate": "advancement.maidclinic.kit.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "kit": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "maidclinic:first_aid_kit"
+      }
+    }
+  }
+}

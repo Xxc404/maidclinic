@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "maidclinic:block/smart_terminal"
+    },
+    "facing=east": {
+      "model": "maidclinic:block/smart_terminal",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "maidclinic:block/smart_terminal",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "maidclinic:block/smart_terminal",
+      "y": 270
+    }
+  }
+}

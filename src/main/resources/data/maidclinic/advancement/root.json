@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "maidclinic:stethoscope"
+    },
+    "title": {
+      "translate": "advancement.maidclinic.root.title"
+    },
+    "description": {
+      "translate": "advancement.maidclinic.root.description"
+    },
+    "frame": "task",
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "has_stethoscope": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "maidclinic:stethoscope"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "parent": "maidclinic:root",
+  "display": {
+    "icon": {
+      "id": "maidclinic:care_manual"
+    },
+    "title": {
+      "translate": "advancement.maidclinic.manual.title"
+    },
+    "description": {
+      "translate": "advancement.maidclinic.manual.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "maidclinic:care_manual"
+          }
+        ]
+      }
+    }
+  }
+}

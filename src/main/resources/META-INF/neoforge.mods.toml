@@ -1,0 +1,42 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+logoFile = "icon.png"
+
+[[mods]]
+    modId = "maidclinic"
+    version = "1.1.0"
+    displayName = "Touhou Little Maid: Maid Clinic"
+    logoFile = "icon.png"
+    authors = "Maid Clinic Team"
+    description = '''车万女仆附属：女仆诊所。
+
+以常见病、生命体征与合理用药为核心的女仆健康管理模组：
+问诊、体检、对症治疗、并发症处理与家庭医生签约。
+内容参考公开医学常识编写，不含成人内容；
+玩家与女仆为主仆关系。仅作游戏模拟，不构成医疗建议。
+
+A Touhou Little Maid addon about health care: consultations, vital signs,
+evidence-based treatment and long-term care. No mature content; the player and
+maid share a master-servant relationship. Gameplay only, not medical advice.'''
+
+[[dependencies.maidclinic]]
+    modId = "neoforge"
+    type = "required"
+    versionRange = "[21.1.0,)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.maidclinic]]
+    modId = "minecraft"
+    type = "required"
+    versionRange = "[1.21.1,1.21.2)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.maidclinic]]
+    modId = "touhou_little_maid"
+    type = "optional"
+    versionRange = "[1.5.0,)"
+    ordering = "AFTER"
+    side = "BOTH"
